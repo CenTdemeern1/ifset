@@ -1,0 +1,613 @@
+DEF decrement number of bottles
+	IF bottles == 99
+		bottles = 98
+		RETURN
+	IF bottles == 98
+		bottles = 97
+		RETURN
+	IF bottles == 97
+		bottles = 96
+		RETURN
+	IF bottles == 96
+		bottles = 95
+		RETURN
+	IF bottles == 95
+		bottles = 94
+		RETURN
+	IF bottles == 94
+		bottles = 93
+		RETURN
+	IF bottles == 93
+		bottles = 92
+		RETURN
+	IF bottles == 92
+		bottles = 91
+		RETURN
+	IF bottles == 91
+		bottles = 90
+		RETURN
+	IF bottles == 90
+		bottles = 89
+		RETURN
+	IF bottles == 89
+		bottles = 88
+		RETURN
+	IF bottles == 88
+		bottles = 87
+		RETURN
+	IF bottles == 87
+		bottles = 86
+		RETURN
+	IF bottles == 86
+		bottles = 85
+		RETURN
+	IF bottles == 85
+		bottles = 84
+		RETURN
+	IF bottles == 84
+		bottles = 83
+		RETURN
+	IF bottles == 83
+		bottles = 82
+		RETURN
+	IF bottles == 82
+		bottles = 81
+		RETURN
+	IF bottles == 81
+		bottles = 80
+		RETURN
+	IF bottles == 80
+		bottles = 79
+		RETURN
+	IF bottles == 79
+		bottles = 78
+		RETURN
+	IF bottles == 78
+		bottles = 77
+		RETURN
+	IF bottles == 77
+		bottles = 76
+		RETURN
+	IF bottles == 76
+		bottles = 75
+		RETURN
+	IF bottles == 75
+		bottles = 74
+		RETURN
+	IF bottles == 74
+		bottles = 73
+		RETURN
+	IF bottles == 73
+		bottles = 72
+		RETURN
+	IF bottles == 72
+		bottles = 71
+		RETURN
+	IF bottles == 71
+		bottles = 70
+		RETURN
+	IF bottles == 70
+		bottles = 69
+		RETURN
+	IF bottles == 69
+		bottles = 68
+		RETURN
+	IF bottles == 68
+		bottles = 67
+		RETURN
+	IF bottles == 67
+		bottles = 66
+		RETURN
+	IF bottles == 66
+		bottles = 65
+		RETURN
+	IF bottles == 65
+		bottles = 64
+		RETURN
+	IF bottles == 64
+		bottles = 63
+		RETURN
+	IF bottles == 63
+		bottles = 62
+		RETURN
+	IF bottles == 62
+		bottles = 61
+		RETURN
+	IF bottles == 61
+		bottles = 60
+		RETURN
+	IF bottles == 60
+		bottles = 59
+		RETURN
+	IF bottles == 59
+		bottles = 58
+		RETURN
+	IF bottles == 58
+		bottles = 57
+		RETURN
+	IF bottles == 57
+		bottles = 56
+		RETURN
+	IF bottles == 56
+		bottles = 55
+		RETURN
+	IF bottles == 55
+		bottles = 54
+		RETURN
+	IF bottles == 54
+		bottles = 53
+		RETURN
+	IF bottles == 53
+		bottles = 52
+		RETURN
+	IF bottles == 52
+		bottles = 51
+		RETURN
+	IF bottles == 51
+		bottles = 50
+		RETURN
+	IF bottles == 50
+		bottles = 49
+		RETURN
+	IF bottles == 49
+		bottles = 48
+		RETURN
+	IF bottles == 48
+		bottles = 47
+		RETURN
+	IF bottles == 47
+		bottles = 46
+		RETURN
+	IF bottles == 46
+		bottles = 45
+		RETURN
+	IF bottles == 45
+		bottles = 44
+		RETURN
+	IF bottles == 44
+		bottles = 43
+		RETURN
+	IF bottles == 43
+		bottles = 42
+		RETURN
+	IF bottles == 42
+		bottles = 41
+		RETURN
+	IF bottles == 41
+		bottles = 40
+		RETURN
+	IF bottles == 40
+		bottles = 39
+		RETURN
+	IF bottles == 39
+		bottles = 38
+		RETURN
+	IF bottles == 38
+		bottles = 37
+		RETURN
+	IF bottles == 37
+		bottles = 36
+		RETURN
+	IF bottles == 36
+		bottles = 35
+		RETURN
+	IF bottles == 35
+		bottles = 34
+		RETURN
+	IF bottles == 34
+		bottles = 33
+		RETURN
+	IF bottles == 33
+		bottles = 32
+		RETURN
+	IF bottles == 32
+		bottles = 31
+		RETURN
+	IF bottles == 31
+		bottles = 30
+		RETURN
+	IF bottles == 30
+		bottles = 29
+		RETURN
+	IF bottles == 29
+		bottles = 28
+		RETURN
+	IF bottles == 28
+		bottles = 27
+		RETURN
+	IF bottles == 27
+		bottles = 26
+		RETURN
+	IF bottles == 26
+		bottles = 25
+		RETURN
+	IF bottles == 25
+		bottles = 24
+		RETURN
+	IF bottles == 24
+		bottles = 23
+		RETURN
+	IF bottles == 23
+		bottles = 22
+		RETURN
+	IF bottles == 22
+		bottles = 21
+		RETURN
+	IF bottles == 21
+		bottles = 20
+		RETURN
+	IF bottles == 20
+		bottles = 19
+		RETURN
+	IF bottles == 19
+		bottles = 18
+		RETURN
+	IF bottles == 18
+		bottles = 17
+		RETURN
+	IF bottles == 17
+		bottles = 16
+		RETURN
+	IF bottles == 16
+		bottles = 15
+		RETURN
+	IF bottles == 15
+		bottles = 14
+		RETURN
+	IF bottles == 14
+		bottles = 13
+		RETURN
+	IF bottles == 13
+		bottles = 12
+		RETURN
+	IF bottles == 12
+		bottles = 11
+		RETURN
+	IF bottles == 11
+		bottles = 10
+		RETURN
+	IF bottles == 10
+		bottles = 9
+		RETURN
+	IF bottles == 9
+		bottles = 8
+		RETURN
+	IF bottles == 8
+		bottles = 7
+		RETURN
+	IF bottles == 7
+		bottles = 6
+		RETURN
+	IF bottles == 6
+		bottles = 5
+		RETURN
+	IF bottles == 5
+		bottles = 4
+		RETURN
+	IF bottles == 4
+		bottles = 3
+		RETURN
+	IF bottles == 3
+		bottles = 2
+		RETURN
+	IF bottles == 2
+		bottles = 1
+		RETURN
+	IF bottles == 1
+		bottles = 0
+		RETURN
+DEF print number of bottles
+	IF bottles == 0
+		OUTPUT = No
+		RETURN
+	IF bottles == 1
+		OUTPUT = 1
+		RETURN
+	IF bottles == 2
+		OUTPUT = 2
+		RETURN
+	IF bottles == 3
+		OUTPUT = 3
+		RETURN
+	IF bottles == 4
+		OUTPUT = 4
+		RETURN
+	IF bottles == 5
+		OUTPUT = 5
+		RETURN
+	IF bottles == 6
+		OUTPUT = 6
+		RETURN
+	IF bottles == 7
+		OUTPUT = 7
+		RETURN
+	IF bottles == 8
+		OUTPUT = 8
+		RETURN
+	IF bottles == 9
+		OUTPUT = 9
+		RETURN
+	IF bottles == 10
+		OUTPUT = 10
+		RETURN
+	IF bottles == 11
+		OUTPUT = 11
+		RETURN
+	IF bottles == 12
+		OUTPUT = 12
+		RETURN
+	IF bottles == 13
+		OUTPUT = 13
+		RETURN
+	IF bottles == 14
+		OUTPUT = 14
+		RETURN
+	IF bottles == 15
+		OUTPUT = 15
+		RETURN
+	IF bottles == 16
+		OUTPUT = 16
+		RETURN
+	IF bottles == 17
+		OUTPUT = 17
+		RETURN
+	IF bottles == 18
+		OUTPUT = 18
+		RETURN
+	IF bottles == 19
+		OUTPUT = 19
+		RETURN
+	IF bottles == 20
+		OUTPUT = 20
+		RETURN
+	IF bottles == 21
+		OUTPUT = 21
+		RETURN
+	IF bottles == 22
+		OUTPUT = 22
+		RETURN
+	IF bottles == 23
+		OUTPUT = 23
+		RETURN
+	IF bottles == 24
+		OUTPUT = 24
+		RETURN
+	IF bottles == 25
+		OUTPUT = 25
+		RETURN
+	IF bottles == 26
+		OUTPUT = 26
+		RETURN
+	IF bottles == 27
+		OUTPUT = 27
+		RETURN
+	IF bottles == 28
+		OUTPUT = 28
+		RETURN
+	IF bottles == 29
+		OUTPUT = 29
+		RETURN
+	IF bottles == 30
+		OUTPUT = 30
+		RETURN
+	IF bottles == 31
+		OUTPUT = 31
+		RETURN
+	IF bottles == 32
+		OUTPUT = 32
+		RETURN
+	IF bottles == 33
+		OUTPUT = 33
+		RETURN
+	IF bottles == 34
+		OUTPUT = 34
+		RETURN
+	IF bottles == 35
+		OUTPUT = 35
+		RETURN
+	IF bottles == 36
+		OUTPUT = 36
+		RETURN
+	IF bottles == 37
+		OUTPUT = 37
+		RETURN
+	IF bottles == 38
+		OUTPUT = 38
+		RETURN
+	IF bottles == 39
+		OUTPUT = 39
+		RETURN
+	IF bottles == 40
+		OUTPUT = 40
+		RETURN
+	IF bottles == 41
+		OUTPUT = 41
+		RETURN
+	IF bottles == 42
+		OUTPUT = 42
+		RETURN
+	IF bottles == 43
+		OUTPUT = 43
+		RETURN
+	IF bottles == 44
+		OUTPUT = 44
+		RETURN
+	IF bottles == 45
+		OUTPUT = 45
+		RETURN
+	IF bottles == 46
+		OUTPUT = 46
+		RETURN
+	IF bottles == 47
+		OUTPUT = 47
+		RETURN
+	IF bottles == 48
+		OUTPUT = 48
+		RETURN
+	IF bottles == 49
+		OUTPUT = 49
+		RETURN
+	IF bottles == 50
+		OUTPUT = 50
+		RETURN
+	IF bottles == 51
+		OUTPUT = 51
+		RETURN
+	IF bottles == 52
+		OUTPUT = 52
+		RETURN
+	IF bottles == 53
+		OUTPUT = 53
+		RETURN
+	IF bottles == 54
+		OUTPUT = 54
+		RETURN
+	IF bottles == 55
+		OUTPUT = 55
+		RETURN
+	IF bottles == 56
+		OUTPUT = 56
+		RETURN
+	IF bottles == 57
+		OUTPUT = 57
+		RETURN
+	IF bottles == 58
+		OUTPUT = 58
+		RETURN
+	IF bottles == 59
+		OUTPUT = 59
+		RETURN
+	IF bottles == 60
+		OUTPUT = 60
+		RETURN
+	IF bottles == 61
+		OUTPUT = 61
+		RETURN
+	IF bottles == 62
+		OUTPUT = 62
+		RETURN
+	IF bottles == 63
+		OUTPUT = 63
+		RETURN
+	IF bottles == 64
+		OUTPUT = 64
+		RETURN
+	IF bottles == 65
+		OUTPUT = 65
+		RETURN
+	IF bottles == 66
+		OUTPUT = 66
+		RETURN
+	IF bottles == 67
+		OUTPUT = 67
+		RETURN
+	IF bottles == 68
+		OUTPUT = 68
+		RETURN
+	IF bottles == 69
+		OUTPUT = 69
+		RETURN
+	IF bottles == 70
+		OUTPUT = 70
+		RETURN
+	IF bottles == 71
+		OUTPUT = 71
+		RETURN
+	IF bottles == 72
+		OUTPUT = 72
+		RETURN
+	IF bottles == 73
+		OUTPUT = 73
+		RETURN
+	IF bottles == 74
+		OUTPUT = 74
+		RETURN
+	IF bottles == 75
+		OUTPUT = 75
+		RETURN
+	IF bottles == 76
+		OUTPUT = 76
+		RETURN
+	IF bottles == 77
+		OUTPUT = 77
+		RETURN
+	IF bottles == 78
+		OUTPUT = 78
+		RETURN
+	IF bottles == 79
+		OUTPUT = 79
+		RETURN
+	IF bottles == 80
+		OUTPUT = 80
+		RETURN
+	IF bottles == 81
+		OUTPUT = 81
+		RETURN
+	IF bottles == 82
+		OUTPUT = 82
+		RETURN
+	IF bottles == 83
+		OUTPUT = 83
+		RETURN
+	IF bottles == 84
+		OUTPUT = 84
+		RETURN
+	IF bottles == 85
+		OUTPUT = 85
+		RETURN
+	IF bottles == 86
+		OUTPUT = 86
+		RETURN
+	IF bottles == 87
+		OUTPUT = 87
+		RETURN
+	IF bottles == 88
+		OUTPUT = 88
+		RETURN
+	IF bottles == 89
+		OUTPUT = 89
+		RETURN
+	IF bottles == 90
+		OUTPUT = 90
+		RETURN
+	IF bottles == 91
+		OUTPUT = 91
+		RETURN
+	IF bottles == 92
+		OUTPUT = 92
+		RETURN
+	IF bottles == 93
+		OUTPUT = 93
+		RETURN
+	IF bottles == 94
+		OUTPUT = 94
+		RETURN
+	IF bottles == 95
+		OUTPUT = 95
+		RETURN
+	IF bottles == 96
+		OUTPUT = 96
+		RETURN
+	IF bottles == 97
+		OUTPUT = 97
+		RETURN
+	IF bottles == 98
+		OUTPUT = 98
+		RETURN
+	IF bottles == 99
+		OUTPUT = 99
+		RETURN
+bottles = 99
+DEF song
+LOOP
+song
+print number of bottles
+OUTPUT =  bottles of beer on the wall,\n
+print number of bottles
+OUTPUT =  bottles of beer.\nTake one down, pass it around,\n
+decrement number of bottles
+print number of bottles
+OUTPUT =  bottles of beer on the wall.\n\n
+IF bottles == 1
+	RETURN
+LOOP

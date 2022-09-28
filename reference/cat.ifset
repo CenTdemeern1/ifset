@@ -1,0 +1,5 @@
+DEF start
+LOOP
+start
+OUTPUT = \INPUT
+LOOP

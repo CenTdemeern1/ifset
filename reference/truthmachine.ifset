@@ -1,0 +1,9 @@
+input = \INPUT
+IF input == 0
+	OUTPUT = 0
+IF input == 1
+	DEF loop
+	LOOP
+	loop
+	OUTPUT = 1
+	LOOP
