@@ -73431,77 +73431,111 @@ DEF defcell
 	RETURN
 defcell
 increment
+increment
+increment
+increment
+increment
+increment
+increment
+increment
 DEF loop0
-	decrement
-	decrement
 	right
-	decrement
+	increment
+	increment
+	increment
+	increment
 	DEF loop1
 		right
-		right
+		increment
 		increment
 		right
-		decrement
-		decrement
-		decrement
-		decrement
-		decrement
+		increment
+		increment
+		increment
+		right
+		increment
+		increment
+		increment
+		right
+		increment
 		left
 		left
+		left
+		left
+		decrement
 	IF truthy == 1
 		loop1
+	right
+	increment
+	right
+	increment
+	right
+	decrement
+	right
+	right
+	increment
+	DEF loop2
+		left
+	IF truthy == 1
+		loop2
 	left
-	decrement
-	decrement
-	left
-	decrement
-	decrement
 	decrement
 IF truthy == 1
 	loop0
 right
+right
+output
+right
 decrement
+decrement
+decrement
+output
+increment
+increment
+increment
+increment
+increment
+increment
+increment
+output
+output
+increment
+increment
+increment
 output
 right
 right
-right
-increment
 output
-right
-right
-output
-output
-increment
-increment
-increment
-DEF loop2
-	output
-	right
-IF truthy == 1
-	loop2
-left
-left
-left
-left
-output
-increment
-increment
-increment
-output
-decrement
-decrement
-decrement
-decrement
-decrement
-decrement
-output
-left
 left
 decrement
 output
+left
+output
+increment
+increment
+increment
+output
+decrement
+decrement
+decrement
+decrement
+decrement
+decrement
+output
+decrement
+decrement
+decrement
+decrement
+decrement
+decrement
+decrement
+decrement
+output
 right
 right
+increment
+output
 right
-right
+increment
 increment
 output
