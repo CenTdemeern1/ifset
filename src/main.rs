@@ -4,7 +4,6 @@ use std::collections::HashMap;
 use std::env;
 use std::fs;
 
-// #[derive(Debug)]
 #[derive(Clone)]
 struct Position {
     linenumber : usize,
