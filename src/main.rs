@@ -16,8 +16,9 @@ fn read_file() -> String {
         panic!("No file name was provided.");
     }
     let filename = &args[1];
-    let code = fs::read_to_string(filename)
+    let code : String = fs::read_to_string(filename)
         .expect("Could not open file.");
+    // This signals that this will in fact return a String and thus Clippy doesn't complain
     code
 }
 
@@ -31,7 +32,7 @@ struct InterpreterState {
 
 impl InterpreterState {
     fn sanitize_value(&self, value: String) -> String {
-        let mut value = value.clone();
+        let mut value = value;
         while value.contains(r"\INPUT") {
             let input = self.term.read_char().expect("Couldn't read input.").to_string();
             value = value.replacen(r"\INPUT", &input, 1);
@@ -40,7 +41,7 @@ impl InterpreterState {
     }
 
     fn run_line(&mut self, line: &String) {
-        let stripped_line = line.trim_start_matches("\t");
+        let stripped_line = line.trim_start_matches('\t');
         let line_indentation = line.len() - stripped_line.len();
         if line_indentation > self.current_position.indentation {
             return;
@@ -78,25 +79,23 @@ impl InterpreterState {
         }
         if line == "RETURN" {
             match self.stack.pop() {
-                Some(v) => self.current_position = v.clone(),
+                Some(v) => self.current_position = v,
                 None => panic!("There is nothing on the stack to return to."),
             }
             return;
         }
         if line == "LOOP" {
-            if self.stack.len() == 0 {
+            if self.stack.is_empty() {
                 return;
             }
-            match self.stack.get(self.stack.len()-1) {
-                Some(v) => self.current_position = v.clone(),
-                None => (),
+            if let Some(v) = self.stack.last() {
+                self.current_position = v.clone();
             }
             return;
         }
         if let Some(pos) = self.functions.get(&line) {
             self.stack.push(self.current_position.clone());
             self.current_position = pos.clone();
-            return;
         } else {panic!("Function {:?} not found", line)}
     }
 }
@@ -159,7 +158,7 @@ fn main() {
 
     'mainloop: loop {
         if let Some(line) = scriptlines.get(state.current_position.linenumber) {
-            state.run_line(&line);
+            state.run_line(line);
         } else {
             break 'mainloop;
         }
