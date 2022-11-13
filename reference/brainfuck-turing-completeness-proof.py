@@ -1,13 +1,10 @@
 # Proves ifset is turing complete by demonstrating that any brainfuck program can be translated into ifset
 # (Assuming an infinite file size and infinite memory to mirror brainfuck's infinite tape)
 
-# TODO add input in generate cell after the decrement function
-# TODO add truthy variable so loops can be handled -- done?
-# TODO (finnaly) add smaller functions to actually compile the brainfuck
-# Voila it's done
+# TL;DR this compiles brainfuck code into an unholy amount of ifset code, have fun waiting 4 minutes for Hello World to run
 
-TAPE_LENGTH = 11
-CELL_LIMIT = 256
+TAPE_LENGTH = 11 # The total length of the tape, figure out how long you want the tape to be beforehand
+CELL_LIMIT = 256 # Integer limit
 
 def indent(i):
 	return "\t"*i
