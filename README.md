@@ -6,7 +6,7 @@
 </font> -->
 # Ifset
 
-### The turing tarpit that you should only let your code write for you
+### The tarpit that you should only let your code write for you
 ---
 
 <!-- </center> -->
