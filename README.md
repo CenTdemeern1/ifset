@@ -1,13 +1,15 @@
-<center>
+<!-- Apparently GitHub doesn't like me doing this HTML stuff, I just wanted a big centered header >~< -->
+<!-- <center>
 <br>
 <font size="12">
 <b>Ifset</b>
-</font>
+</font> -->
+# Ifset
 
 ### The turing tarpit that you should only let your code write for you
 ---
 
-</center>
+<!-- </center> -->
 
 # Versions
 There are 2 ifset interpreters in this repository:
