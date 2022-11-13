@@ -335,7 +335,7 @@ Ifset is a *tarpit*, which is a term used in recreational programming to say tha
 
 Ifset is not meant to be used to write normal programs! Rather, it's meant as a recreational activity, or a challenge.
 
-You could even write a program in a different language to generate an ifset program! One of these generaotr programs comes included, in the form of a file named `brainfuck-turing-completeness-proof.py` in the `reference` directory.
+You could even write a program in a different language to generate an ifset program! One of these generator programs comes included, in the form of a file named `brainfuck-turing-completeness-proof.py` in the `reference` directory.
 
 The generator file is a way to prove that given an infinite file size and infinite memory, ifset is turing complete.
 
