@@ -346,3 +346,5 @@ With that said though, ifset being a tarpit means that it'll probably be a strug
 This language was made for recreational and educational purposes only! No need to torture yourself with it if you don't want to.
 
 With that, that's the end of the README file, have fun writing some ifset ;)
+
+P.S. Let me know if I made any mistakes or forgot anything while writing this- it's 4 AM right now XP
